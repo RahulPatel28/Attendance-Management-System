@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5173", // your frontend URL
+    origin: "https://attendance-management-system-frontend.onrender.com", // your frontend URL
     credentials: true, // to allow cookies, tokens, headers, etc.
   })
 );
